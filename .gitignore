@@ -1,0 +1,80 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+ENV/
+env/
+venv/
+ENV.bak/
+env.bak/
+
+# Stripe API Keys and sensitive data
+.env
+.env.local
+*.key
+.stripe_key
+secrets/
+credentials/
+
+# Excel and CSV files (output files)
+*Updated.xlsx
+*updated.xlsx
+payment_account_mapping.csv
+payment_account_mapping_enhanced.csv
+payment_analysis_results.csv
+payment_analysis_summary.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+~$*.xlsx
+~$*.xls
